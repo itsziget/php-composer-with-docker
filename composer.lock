@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c21aa5a12e073d9bfe13c656e4a5c39b",
+    "packages": [
+        {
+            "name": "rimelek/ip-util",
+            "version": "v1.0.0-rc.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rimelek/iputil.git",
+                "reference": "2fc6b82c597e516674cc75815104521d208a73da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rimelek/iputil/zipball/2fc6b82c597e516674cc75815104521d208a73da",
+                "reference": "2fc6b82c597e516674cc75815104521d208a73da",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rimelek\\IPUtil\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Takács Ákos",
+                    "email": "rimelek@rimelek.hu"
+                }
+            ],
+            "description": "Handle IP addresses and ranges",
+            "support": {
+                "issues": "https://github.com/rimelek/iputil/issues",
+                "source": "https://github.com/rimelek/iputil/tree/v1.0.0-rc.1"
+            },
+            "time": "2017-05-21T15:20:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rimelek/ip-util": 5
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

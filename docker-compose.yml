@@ -1,0 +1,10 @@
+services:
+  php:
+    image: php:8.1
+    command:
+      - php
+      - /app/app.php
+    volumes:
+      - type: bind
+        source: .
+        target: /app

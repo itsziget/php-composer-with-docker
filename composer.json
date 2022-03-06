@@ -1,0 +1,20 @@
+{
+  "name": "itsziget/php-composer-with-docker",
+  "description": "Example to use Composer with Docker",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ákos Takács",
+      "email": "rimelek@rimelek.hu"
+    }
+  ],
+  "require": {
+    "rimelek/ip-util": "v1.0.0-rc.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}

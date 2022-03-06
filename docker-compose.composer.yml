@@ -1,0 +1,7 @@
+services:
+  php:
+    image: localhost/composer:project-php-composer-with-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
